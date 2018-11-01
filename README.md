@@ -1,1 +1,1 @@
-# Hackerearth-Basic-Programming-C-
+# Hackerearth-Basic-Programming-Cpp
