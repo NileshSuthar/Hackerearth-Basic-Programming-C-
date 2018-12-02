@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main(){
+    string x;
+    int i,k,count =0;
+    cin >> x >> k;
+    for(i=0;i<x.length();i++){
+        if(x[i] != 57){
+            if(k>0){
+                cout << "9";
+                k--;
+            }
+            else{
+                cout << char(x[i]);
+            }
+        }
+        else{
+            cout<<"9";
+        }
+    }
+}
